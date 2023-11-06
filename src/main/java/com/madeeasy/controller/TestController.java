@@ -35,7 +35,7 @@ public class TestController {
     }
 
     /**
-     * user header :
+     * use header :
      * Accept : application/json -> for json
      * -----------OR-----------
      * Accept : application/xml -> for xml
