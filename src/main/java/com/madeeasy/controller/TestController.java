@@ -39,6 +39,7 @@ public class TestController {
      * Accept : application/json -> for json
      * -----------OR-----------
      * Accept : application/xml -> for xml
+     * and add "jackson-dataformat-xml" dependencies
      */
     @GetMapping(value = "/user-model", produces = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}
             , consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
